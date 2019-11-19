@@ -4,3 +4,31 @@ body {
   font-family: 'Sahitya', serif;
   overflow-x: hidden;
 }
+
+.block-nw {
+  height: 151px;
+  background-color: rgb(255, 153, 153);
+}
+
+.main {
+  height: 3005px;
+  background-color: #dcffcc;
+}
+
+.colwarp {
+  background-color: #9fdfcd;
+}
+
+.page-bottom {
+  background-color: #baabda;
+}
+
+.subscribe-block {
+  height: 408px;
+  background-color: #d79abc;
+}
+
+.block-ibtg-footer {
+  height: 198px;
+  background-color: #999;
+}
