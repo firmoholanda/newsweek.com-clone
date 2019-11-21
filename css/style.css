@@ -177,10 +177,6 @@ ul {
 
 /* main -------------------------------------------------------------------------------*/
 
-main {
-  height: 300px;
-  background: #999;
-}
 
 /* footer -----------------------------------------------------------------------------*/
 
@@ -244,11 +240,6 @@ main {
 .footer-bottom ul {
   list-style-type: none;
   cursor: pointer;
-}
-
-.footer-bottom-right {
-  padding-right: 0;
-  
 }
 
 .leaf {
