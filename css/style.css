@@ -152,11 +152,11 @@ header {
 }
 
 .page-nav > li > a {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .page-nav > li > a:hover {
-	color: #f72210 ;
+	color: #f72210;
 }
 
 .page-nav  li img {
@@ -181,18 +181,19 @@ header {
 /* main -------------------------------------------------------------------------------*/
 
 .main {
-  height: 1000px;
-  background: #999;
+  
+  background: #ccc;
   padding: 20px 30px 0;
 }
 
-/* subscribe-block --------------------------------------------------------------------*/
+/* subscribe-newsletter ---------------------------------------------------------------*/
 
-.block-title {
+.subscribe-newsletter {
   color: #f72210;
   text-transform: uppercase;
   padding-bottom: 11px;
   font: bold 16px/16px "Roboto Condensed",sans-serif;
+  height: 1000px;
 }
 
 /* footer -----------------------------------------------------------------------------*/
