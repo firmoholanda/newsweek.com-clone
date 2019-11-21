@@ -4,24 +4,28 @@ body {
 	font-size: 13px;
 	line-height: 18px;
 	font-family: 'Roboto', sans-serif;
-	overflow-x: hidden;
+  /*overflow-x: hidden;*/
 }
 
-.content {
-	max-width: 1310px;
-	margin: auto;
-	background-color: #fff;
-	padding: 30px;
+ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-bottom: 0 !important;
 }
 
-/*navigation*/
-/*navigation top*/
+/* header -----------------------------------------------------------------------------*/
+
+/* header top */
+
+.fixed-top {
+  height: 95px;
+}
 
 .container-fluid {
 	position: relative;
 }
 
-#headerTop {
+.header-top {
 	position: relative;
 	margin: auto;
 	background-color: #f72210;
@@ -31,11 +35,12 @@ body {
 	transition: all 0.3s;
 }
 
-#headerBottom {
+.header-bottom {
 	position: relative;
 	top: 95px;
 	max-width: 1310px;
-	margin: auto;
+  margin: auto;
+  height: 56px;
 }
 
 .header-logo {
@@ -44,32 +49,38 @@ body {
 	height: 60px;
 	transform: translate(-50%, 0);
 	top: 15px;
-	left: 50%;
-}
-
-.logoimg > img {
-	width: 100%;
+  left: 50%;
+  object-fit: cover;
 }
 
 .header-date {
 	position: relative;
-	margin-left: 20px;
-	font-size: 16px;
+  margin-left: 10px;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: Arial,Helvetica,sans-serif;
 }
 
-#headerSignin {
-	margin-right: 20px;
+.header-signin-subscribe {
+	margin-right: 3px;
 	font-size: 18px;
 	font-weight: 600;
 	position: relative;
-	bottom: 10px;
 }
 
-#headerSignin a {
+.header-signin-subscribe a {
 	text-decoration: none;
 	color: #f72210;
 	background-color: #fff;
-	padding: 8px;
+  padding: 0 10px;
+}
+
+.header-signin-subscribe a i {
+  padding: 0;
+}
+
+.header-signin-subscribe span {
+	padding-right: 10px;
 }
 
 .fa-chevron-right {
@@ -78,29 +89,27 @@ body {
 	z-index: 100;
 }
 
-#headerSignin span {
-	padding-right: 10px;
-}
-
 .fa-bars {
 	position: absolute;
 	top: 0;
-	right: -10px;
 	width: 16px;
-	padding: 10px;
+  padding-left: 15px;
+  padding-top: 6px;
 	color: #f72210;
-	z-index: 9999;
+  z-index: 9999;
+  font-size: 27px
 }
 
-/*navigation bottom*/
+/* header bottom */
 
 .header-bottom {
 	color: #000;
-	height: 50px;
+	height: 56px;
 	padding: 10px 0px;
 	background-color: #fff;
 	border-bottom: 1px solid #d9d9d9;
-	position: relative;
+  position: relative;
+  z-index: 10000;
 }
 
 .header-bottom::before {
@@ -116,13 +125,20 @@ body {
 }
 
 .page-nav {
-	display: flex;
-	font-size: 21px;
-	line-height: 24px;
-	font-weight: 700;
-	list-style: none;
-	margin: 0px;
-	padding: 0px 54px 0px 0px;
+  display: flex;
+  padding-top: 6px;
+  padding-right: 50px;
+  padding-left: 0 ;
+  list-style: none;
+  font-size: 21px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.page-nav :first-child,
+.page-nav :last-child {
+	border-width: 0px;
 }
 
 .page-nav li {
@@ -139,25 +155,33 @@ body {
 	color: #f72210 !important;
 }
 
-.page-nav :first-child,
-.page-nav :last-child {
-	border-width: 0px;
+.page-nav  li img {
+  height: 25px;
+  width: 25px;
 }
 
-#search {
+.header-search {
 	color: #0000008c;
-	cursor: text;
+  cursor: text;
+  padding-right: 5px;
 	font-size: 16px;
 	font-weight: 400;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
 .fa-search {
 	padding-left: 10px;
-	font-weight: 400;
+  font-weight: 300;
 }
 
+/* main -------------------------------------------------------------------------------*/
+
+
+/* footer -----------------------------------------------------------------------------*/
+
 footer {
-  height: 5000px;
-  background-color: #333;
+  height: 1000px;
+  background: #999;
 }

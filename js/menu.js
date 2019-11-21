@@ -38,7 +38,6 @@ function big() {
   headerTop.style.paddingBottom = "10px";
   headerTop.style.maxWidth = "1310px";
   headerDate.style.display = 'block';
-  headerDate.style.bottom = "50px";
   headerShevron.style.display = 'inline';
   headerBars.style.color = '#f72210';
   headerLogo.style.width = "396px";
@@ -46,21 +45,20 @@ function big() {
   headerLogo.style.left = "50%";
   headerLogo.style.top = "15px";
   headerSignin.style.fontSize = "18px";
-  headerSignin.style.bottom = "10px";
-  headerSubscribe.style.padding = "8px";
+  headerSignin.style.top = "0px";
+  headerSignin.style.right = "0";
 }
 
 function small() {
-  headerTop.style.paddingTop = "3px";
-  headerTop.style.paddingBottom = "3px";
+  headerTop.style.paddingTop = "5px";
   headerTop.style.maxWidth = "100%";
   headerDate.style.display = 'none';
   headerBars.style.color = '#fff';
   headerLogo.style.width = "132px";
   headerLogo.style.height = "20px";
-  headerLogo.style.left = "100px";
-  headerLogo.style.top = "10px";
-  headerSignin.style.fontSize = "14px";
-  headerSignin.style.bottom = "0px";
-  headerSubscribe.style.padding = "6px";
+  headerLogo.style.left = "80px";
+  headerLogo.style.top = "18px";
+  headerSignin.style.fontSize = "18px";
+  headerSignin.style.top = "3px";
+  headerSignin.style.right = "50px";
 }
