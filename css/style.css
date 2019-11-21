@@ -3,7 +3,7 @@ body {
 	color: #333;
 	font-size: 13px;
 	line-height: 18px;
-	font-family: 'Roboto', sans-serif;
+	font-family: Arial,Helvetica,sans-serif;
   /*overflow-x: hidden;*/
 }
 
@@ -176,11 +176,67 @@ ul {
 
 /* main -------------------------------------------------------------------------------*/
 
+main {
+  height: 300px;
+  background: #999;
+}
 
 /* footer -----------------------------------------------------------------------------*/
 
-footer {
+.footer {
   border-top: 2px solid #f4f5f6;
 	background-color: #fff;
-	padding-top: 30px;
+  padding: 30px !important;
+  color: #666;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: flex-end;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.copyright {
+  font-size: 12px;
+  line-height: 12px;
+  margin-bottom: 3px;
+  padding-left: 10px;
+  text-transform: uppercase;
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+.footer-social {
+  display: flex;
+  align-items: flex-end;
+}
+
+.footer-bottom {
+  flex-wrap: wrap;
+  border-top: 1px solid #d9d9d9;
+  padding-top: 6px;
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.footer-bottom ul {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.leaf {
+	border-right: 1px solid #d9d9d9;
+	padding-right: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.leaf:hover {
+	color: #000;
 }
