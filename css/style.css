@@ -16,6 +16,10 @@ ul {
 
 /* header -----------------------------------------------------------------------------*/
 
+header {
+  height: 151px;
+}
+
 /* header top */
 
 .fixed-top {
@@ -41,7 +45,6 @@ ul {
 	top: 95px;
 	max-width: 1310px;
   margin: auto;
-  height: 56px;
 }
 
 .header-logo {
@@ -177,6 +180,20 @@ ul {
 
 /* main -------------------------------------------------------------------------------*/
 
+.main {
+  height: 1000px;
+  background: #999;
+  padding: 20px 30px 0;
+}
+
+/* subscribe-block --------------------------------------------------------------------*/
+
+.block-title {
+  color: #f72210;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+  font: bold 16px/16px "Roboto Condensed",sans-serif;
+}
 
 /* footer -----------------------------------------------------------------------------*/
 
