@@ -220,6 +220,12 @@ header {
   background: white;
 }
 
+/* block-featured-slideshows ----------------------------------------------------------*/
+.bfs-title {
+  font: bold 19px/19px "Roboto Condensed",sans-serif;
+  color: #333;
+}
+
 /* block-section-picks ----------------------------------------------------------------*/
 
 .bs-left-mid-img {
