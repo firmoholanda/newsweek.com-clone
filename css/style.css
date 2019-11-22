@@ -7,11 +7,38 @@ body {
   /*overflow-x: hidden;*/
 }
 
-ul {
+ul, h3 {
   margin-block-start: 0;
   margin-block-end: 0;
   margin-bottom: 0 ;
   padding-inline-start: 0;
+}
+
+.link-red {
+  display: inline-block;
+  padding: 10px 10px 10px 12px;
+  color: white;
+  font: bold 18px/18px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  border: 0 none;
+  list-style: none outside none;
+  margin: 0;
+  outline: 0 none;
+  background-color: #f72210;
+}
+
+.link-red:hover {
+  background-color: #de1f0e;
+}
+
+.link-red:after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  margin-left: 10px;
+  background: url(/img/icon-arrow-right.svg) center/contain no-repeat;
 }
 
 /* header -----------------------------------------------------------------------------*/
@@ -155,8 +182,8 @@ header {
   cursor: pointer;
 }
 
-.page-nav > li > a:hover {
-	color: #f72210;
+.page-nav  li  a:hover {
+  color: #f72210 !important;  /* https://github.com/twbs/bootstrap/issues/24140 */
 }
 
 .page-nav  li img {
@@ -181,7 +208,6 @@ header {
 /* main -------------------------------------------------------------------------------*/
 
 .main {
-  
   background: #ccc;
   padding: 20px 30px 0;
 }
@@ -189,12 +215,32 @@ header {
 /* subscribe-newsletter ---------------------------------------------------------------*/
 
 .subscribe-newsletter {
-  color: #f72210;
-  text-transform: uppercase;
-  padding-bottom: 11px;
-  font: bold 16px/16px "Roboto Condensed",sans-serif;
   height: 1000px;
+  font: bold "Roboto Condensed", sans-serif;
 }
+
+.subscribe-col {
+  padding: 30px;
+  background: #f4f5f6;
+}
+
+.subscribe-text {
+  padding-left: 30px;
+}
+
+.subscribe-text h3{
+  margin-bottom: 15px;
+  line-height: 28px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.subscribe-text p {
+  font: 300 15px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 25px;
+}
+
+
 
 /* footer -----------------------------------------------------------------------------*/
 

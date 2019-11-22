@@ -16,6 +16,7 @@ var headerBars = document.getElementById('headerBars');
 var headerLogo = document.getElementById('headerLogo');
 var headerSignin = document.getElementById('headerSignin');
 var headerSubscribe = document.getElementById('headerSubscribe');
+var headerBottom = document.getElementById("headerBottom");
 
 function myFunction() {
   if (window.pageYOffset > sticky + 120) {
@@ -37,8 +38,8 @@ function big() {
   headerTop.style.paddingTop = "50px";
   headerTop.style.paddingBottom = "10px";
   headerTop.style.maxWidth = "1310px";
-  headerDate.style.display = 'block';
-  headerShevron.style.display = 'inline';
+  headerDate.style.display = "block";
+  headerShevron.style.display = "inline";
   headerBars.style.color = '#f72210';
   headerLogo.style.width = "396px";
   headerLogo.style.height = "60px";
@@ -47,12 +48,13 @@ function big() {
   headerSignin.style.fontSize = "18px";
   headerSignin.style.top = "0px";
   headerSignin.style.right = "0";
+  headerBottom.style.display = "block";
 }
 
 function small() {
   headerTop.style.paddingTop = "5px";
   headerTop.style.maxWidth = "100%";
-  headerDate.style.display = 'none';
+  headerDate.style.display = "none";
   headerBars.style.color = '#fff';
   headerLogo.style.width = "132px";
   headerLogo.style.height = "20px";
@@ -61,4 +63,5 @@ function small() {
   headerSignin.style.fontSize = "18px";
   headerSignin.style.top = "3px";
   headerSignin.style.right = "50px";
+  headerBottom.style.display = "none";
 }
