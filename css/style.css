@@ -216,14 +216,36 @@ header {
 
 /* block-section-picks ----------------------------------------------------------------*/
 
-.col-left-mid-img {
+.bs-left-mid-img {
   max-width: 318px;
   object-fit: cover;  
 }
 
-.feature-img {
+.bs-feature-img {
   max-width: 135px;
   object-fit: cover;  
+}
+
+.bs-left-mid-text {
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: bold;
+  font-family: "Roboto Condensed",sans-serif;
+}
+
+.bs-left-mid-text:hover {
+  text-decoration: underline #f72210;
+  cursor: pointer;
+}
+
+.bs-f-info {
+  font: bold 17px/21px "Roboto Condensed",sans-serif;
+  color: black;
+}
+
+.bs-f-info:hover {
+  color: red;
+  cursor: pointer;
 }
 
 /* subscribe-newsletter ---------------------------------------------------------------*/
