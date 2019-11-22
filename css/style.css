@@ -1,5 +1,5 @@
 body {
-	background-color: #f4f5f6;
+	background-color: white;
 	color: #333;
 	font-size: 13px;
 	line-height: 18px;
@@ -12,6 +12,15 @@ ul, h3 {
   margin-block-end: 0;
   margin-bottom: 0 ;
   padding-inline-start: 0;
+}
+
+/* custom elements --------------------------------------------------------------------*/
+
+.block-title {
+  font: bold 16px/16px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+  color: #f72210;
 }
 
 .link-red {
@@ -207,39 +216,48 @@ header {
 
 /* main -------------------------------------------------------------------------------*/
 
-.main {
-  background: #ccc;
-  padding: 20px 30px 0;
-}
 
 /* subscribe-newsletter ---------------------------------------------------------------*/
 
-.subscribe-newsletter {
-  height: 1000px;
-  font: bold "Roboto Condensed", sans-serif;
-}
-
 .subscribe-col {
-  padding: 30px;
   background: #f4f5f6;
 }
 
-.subscribe-text {
-  padding-left: 30px;
+.subscribe-col img {
+  min-width: 260px;
+  object-fit: cover;
 }
 
-.subscribe-text h3{
-  margin-bottom: 15px;
+.newsletter-col {
+  border: 1px solid #ebebeb;
+}
+
+.newsletter-col img {
+  min-height: 313px;
+  object-fit: cover;
+}
+
+.subscribe-text{
+  min-height: 265px;
+}
+
+.newsletter-text {
+  min-height: 313px;
+}
+
+.subscribe-text h3,
+.newsletter-text h3 {
   line-height: 28px;
   font-size: 24px;
   font-weight: 700;
+  margin-bottom: 15px;
 }
 
-.subscribe-text p {
+.subscribe-text p,
+.newsletter-text p {
   font: 300 15px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 25px;
 }
-
 
 
 /* footer -----------------------------------------------------------------------------*/
@@ -247,7 +265,6 @@ header {
 .footer {
   border-top: 2px solid #f4f5f6;
 	background-color: #fff;
-  padding: 30px ;
   color: #666;
 }
 
