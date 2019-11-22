@@ -17,7 +17,7 @@ ul, h3 {
 /* custom elements --------------------------------------------------------------------*/
 
 .block-title {
-  font: bold 16px/16px "Roboto Condensed",sans-serif;
+  font: bold 22px "Roboto Condensed",sans-serif;
   text-transform: uppercase;
   padding-bottom: 11px;
   color: #f72210;
@@ -214,8 +214,17 @@ header {
   font-weight: 300;
 }
 
-/* main -------------------------------------------------------------------------------*/
+/* block-section-picks ----------------------------------------------------------------*/
 
+.col-left-mid-img {
+  max-width: 318px;
+  object-fit: cover;  
+}
+
+.feature-img {
+  max-width: 135px;
+  object-fit: cover;  
+}
 
 /* subscribe-newsletter ---------------------------------------------------------------*/
 
