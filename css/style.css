@@ -55,6 +55,18 @@ ul, h3 {
 	color: #f72210;
 }
 
+.title-red-underline {
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: bold;
+  font-family: "Roboto Condensed",sans-serif;
+}
+
+.title-red-underline:hover {
+  text-decoration: underline #f72210;
+  cursor: pointer;
+}
+
 /* header -----------------------------------------------------------------------------*/
 
 header {
@@ -231,8 +243,13 @@ header {
   color: #333;
 }
 
-.bep-img {
+.bep-img-container {
+  position: relative;
+}
 
+.bep-img {
+  width: 100%;
+  object-fit: cover;
 }
 
 .bep-category {
@@ -241,7 +258,7 @@ header {
   color: #f72210;
   text-transform: uppercase;
   padding: 8px 15px 9px;
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255, 255 ,255 ,0.9);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -249,7 +266,11 @@ header {
 }
 
 .bep-text {
-  
+  font-size: 15px;
+  line-height: 20px;
+  color: #333;
+  font-weight: normal;
+  font-family: Arial,Helvetica,sans-serif;
 }
 
 /* block-featured-slideshows ----------------------------------------------------------*/
@@ -304,18 +325,6 @@ header {
 .bs-feature-img {
   max-width: 135px;
   object-fit: cover;  
-}
-
-.bs-left-mid-text {
-  font-size: 22px;
-  line-height: 22px;
-  font-weight: bold;
-  font-family: "Roboto Condensed",sans-serif;
-}
-
-.bs-left-mid-text:hover {
-  text-decoration: underline #f72210;
-  cursor: pointer;
 }
 
 .bs-f-info {
