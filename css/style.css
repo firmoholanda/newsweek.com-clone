@@ -237,7 +237,73 @@ header {
   background: white;
 }
 
-/* block-featured-slideshows ----------------------------------------------------------*/
+/* block-in-the-magazine --------------------------------------------------------------*/
+.bitm-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.bitm-category {
+  font: bold 16px/26px "Roboto Condensed",sans-serif;
+  color: #f72210;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.bitm-category01 {
+  padding: 3px 7px;
+  background-color: #f72210;
+  color: white;
+  margin-right: 7px;
+  font: bold 16px/26px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+}
+
+.bitm-all-features {
+  position: relative;
+}
+
+.bitm-all-features-category {
+  display: block;
+  font: bold 16px/33px "Roboto Condensed",sans-serif;
+  color: #f72210;
+  text-transform: uppercase;
+  padding: 0 10px;
+  background-color: rgba(255,255,255,.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.bitm-all-features-gray {
+  color: black;
+  text-align: center;
+  margin-bottom: 0;
+  font: bold 18px/18px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+  padding: 10px 10px 10px 12px;
+  background-color: #f4f5f6;
+}
+
+.bitm-all-features-gray:after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  margin-left: 10px;
+  color: black;
+  background: url(/img/icon-arrow-right-black.svg) center/contain no-repeat;
+}
+
+.bitm-all-features-gray:hover  {
+  background-color: #dbdcdd;
+  text-decoration: none;
+  color: black;
+}
+
+/* block-editors-picks ----------------------------------------------------------------*/
 .block-editors-picks {
   font: bold 19px/19px "Roboto Condensed", sans-serif;
   color: #333;
