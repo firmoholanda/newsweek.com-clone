@@ -222,8 +222,39 @@ header {
 
 /* block-featured-slideshows ----------------------------------------------------------*/
 .bfs-title {
-  font: bold 19px/19px "Roboto Condensed",sans-serif;
+  font: bold 19px/19px "Roboto Condensed", sans-serif;
   color: #333;
+}
+
+.bfs-title:hover {
+  text-decoration: none;
+  color: #333;
+}
+
+.bfs-img {
+  position: relative;
+}
+
+.bfs-img-big {
+  width: 100%;
+  object-fit: cover;
+}
+
+.bfs-img-counter {
+  display: block;
+  position: absolute;
+  bottom: 24px;
+  left: 0;
+  width: 70px;
+  height: 52px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(/img/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  color: #e9212e;
 }
 
 /* block-section-picks ----------------------------------------------------------------*/
