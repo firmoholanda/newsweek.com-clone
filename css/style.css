@@ -271,6 +271,38 @@ header {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+.pt-culture-travel {
+  background: #f4f5f6;;
+}
+
+.ptct-info-title {
+  color: #272727;
+  font: 20px/22px "Lora",serif;
+  margin-bottom: 10px;
+}
+
+.ptct-info-summary {
+  font: 15px/20px "Helvetica Neue","Helvetica",Arial,sans-serif;
+  color: rgba(39,39,39,.5);
+  margin-bottom: 10px;
+}
+
+.ptct-info-tag {
+  display: inline-block;
+  background-color: #c2d4d7;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  font: 300 13px/20px "Helvetica Neue","Helvetica",Arial,sans-serif;
+}
+
+.ptct-info-tag:hover {
+  background-color: #272727;
+  color: #c2d4d7;
+  cursor: pointer;
+}
+
 /* block-in-the-magazine --------------------------------------------------------------*/
 .bitm-img {
   width: 100%;
