@@ -272,7 +272,7 @@ header {
 }
 
 .pt-culture-travel {
-  background: #f4f5f6;;
+  background: #f4f5f6;
 }
 
 .ptct-info-title {
@@ -314,6 +314,49 @@ header {
   font-size: 15px;
   line-height: 20px;
   color: #333;
+}
+
+.pt-sign-up {
+  background: #f4f5f6;
+}
+
+.ptsu-title {
+  font: bold 19px/19px "Roboto Condensed",sans-serif;
+}
+
+.pt-sign-up-img {
+  width: 29px;
+  height: 28px;
+}
+.ptsu-sign-up {
+  display: inline-block;
+  padding: 10px 10px 10px 12px;
+  color: white;
+  background-color: #666;
+  font: bold 18px/18px "Roboto Condensed",sans-serif;
+}
+
+.ptsu-sign-up::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  margin-left: 10px;
+  background: url(/img/icon-arrow-right.svg) center/contain no-repeat;
+}
+
+.ptsu-sign-up:hover {
+  background-color: #999;
+}
+
+.ptsu-update {
+  color: #333;
+  font: bold 15px/15px "Roboto Condensed",sans-serif;
+}
+
+.ptsu-update:hover {
+  color: #333;
+  text-decoration: none;
 }
 
 /* block-in-the-magazine --------------------------------------------------------------*/
