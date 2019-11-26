@@ -218,12 +218,16 @@ header {
 }
 
 .header-search {
-	color: #0000008c;
+  color: #0000008c;
   cursor: text;
   padding-right: 5px;
 	font-size: 16px;
 	font-weight: 400;
 	font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-search:hover {
+  color: #0000008c;
 }
 
 .fa-search {
