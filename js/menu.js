@@ -41,6 +41,7 @@ function big() {
   headerDate.style.display = "block";
   headerShevron.style.display = "inline";
   headerBars.style.color = '#f72210';
+  headerBars.style.display = "none";
   headerLogo.style.width = "396px";
   headerLogo.style.height = "60px";
   headerLogo.style.left = "50%";
@@ -56,6 +57,7 @@ function small() {
   headerTop.style.maxWidth = "100%";
   headerDate.style.display = "none";
   headerBars.style.color = '#fff';
+  headerBars.style.display = "inline";
   headerLogo.style.width = "132px";
   headerLogo.style.height = "20px";
   headerLogo.style.left = "80px";

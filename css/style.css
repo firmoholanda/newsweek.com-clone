@@ -157,6 +157,10 @@ header {
   font-size: 27px
 }
 
+#headerBars {
+  display: none;
+}
+
 /* header bottom */
 
 .header-bottom {
