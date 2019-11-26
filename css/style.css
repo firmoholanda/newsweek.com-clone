@@ -303,6 +303,19 @@ header {
   cursor: pointer;
 }
 
+.ptms-title {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: bold;
+  font-family: "Roboto Condensed",sans-serif;
+}
+
+.ptms-summary {
+  font-size: 15px;
+  line-height: 20px;
+  color: #333;
+}
+
 /* block-in-the-magazine --------------------------------------------------------------*/
 .bitm-img {
   width: 100%;
