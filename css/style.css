@@ -10,7 +10,9 @@ ul {
   list-style-type: none;
 }
 
-ul, h3, p {
+ul, 
+h3, 
+p {
   margin-block-start: 0;
   margin-block-end: 0;
   margin-bottom: 0;
@@ -100,7 +102,7 @@ header {
   margin: auto;
   background-color: #f72210;
   color: #fff;
-  padding: 50px 0px 10px 0px;
+  padding: 50px 0 10px 0;
   max-width: 1310px;
   transition: all 0.3s;
 }
@@ -178,7 +180,7 @@ header {
 .header-bottom {
 	color: #000;
 	height: 56px;
-	padding: 10px 0px;
+	padding: 10px 0;
 	background-color: #fff;
 	border-bottom: 1px solid #d9d9d9;
   position: relative;
@@ -211,7 +213,7 @@ header {
 
 .page-nav :first-child,
 .page-nav :last-child {
-	border-width: 0px;
+	border-width: 0;
 }
 
 .page-nav li {
@@ -224,11 +226,11 @@ header {
   cursor: pointer;
 }
 
-.page-nav  li  a:hover {
+.page-nav li a:hover {
   color: #f72210 !important;  /* https://github.com/twbs/bootstrap/issues/24140 */
 }
 
-.page-nav  li img {
+.page-nav li img {
   height: 25px;
   width: 25px;
 }
@@ -344,6 +346,7 @@ header {
   width: 29px;
   height: 28px;
 }
+
 .ptsu-sign-up {
   display: inline-block;
   padding: 10px 10px 10px 12px;
@@ -463,7 +466,7 @@ header {
   color: #f72210;
   text-transform: uppercase;
   padding: 8px 15px 9px;
-  background-color: rgba(255, 255 ,255 , 0.9);
+  background-color: rgba(255,255,255,0.9);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -574,7 +577,6 @@ header {
   margin-bottom: 25px;
 }
 
-
 /* footer ---------------------------------------------------------------------------- */
 
 .footer {
@@ -628,8 +630,8 @@ header {
   font-size: 14px;
   line-height: 15px;
   padding-top: 10px;
-  margin-right: 0px;
-  margin-left: 0px;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .footer-bottom ul {
