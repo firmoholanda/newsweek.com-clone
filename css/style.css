@@ -505,7 +505,7 @@ header {
   text-indent: 5px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  background: url(/img/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  background: url("/img/icon-slideshows-nw.png") 0 0/contain no-repeat;
   color: #e9212e;
 }
 
