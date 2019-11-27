@@ -10,7 +10,6 @@ ul {
   list-style-type: none;
 }
 
-ul,
 h3,
 p {
   margin-block-start: 0;
@@ -186,7 +185,6 @@ header {
 	right: 0;
 	content: "";
 	display: block;
-	background-color: #f72210;
 	border-left: 12px solid #fff;
 	border-top: 13px solid #f72210;
 }
