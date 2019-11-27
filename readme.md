@@ -30,12 +30,7 @@ this project can be found in https://github.com/firmoholanda/newsweek.com-clone
 ### ✨ [live version](https://raw.githack.com/firmoholanda/newsweek.com-clone/development/index.html)
 
 <a href="https://raw.githack.com/firmoholanda/newsweek.com-clone/development/index.html" target="_blank">
-    <img alt="page animation" src="https://github.com/firmoholanda/newsweek.com-clone/blob/development/img/page-animation.gif"/>
-</a>
-<br>
-<p>this is the prototype image:</p>
-<a href="https://github.com/firmoholanda/newsweek.com-clone/blob/development/img/prototype-heatmap.png" target="_blank" align="center">
-    <img alt="prototype heatmap" height="700px" src="https://github.com/firmoholanda/newsweek.com-clone/blob/development/img/prototype-heatmap.png"/>
+    <img alt="page animation" src="https://github.com/firmoholanda/newsweek.com-clone/blob/development/img/animation.gif"/>
 </a>
 
 
