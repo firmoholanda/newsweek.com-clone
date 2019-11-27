@@ -1,8 +1,8 @@
 body {
-	background-color: #f4f5f6;
-	color: #333;
-	font-size: 13px;
-	line-height: 18px;
+  background-color: #f4f5f6;
+  color: #333;
+  font-size: 13px;
+  line-height: 18px;
   font-family: Arial,Helvetica,sans-serif;
 }
 
@@ -13,7 +13,7 @@ ul {
 ul, h3, p {
   margin-block-start: 0;
   margin-block-end: 0;
-  margin-bottom: 0 ;
+  margin-bottom: 0;
   padding-inline-start: 0;
 }
 
@@ -54,8 +54,8 @@ ul, h3, p {
 }
 
 .block-title:hover {
- 	text-decoration: none;
-	color: #f72210;
+  text-decoration: none;
+  color: #f72210;
 }
 
 .title-red-underline {
@@ -92,32 +92,32 @@ header {
 }
 
 .container-fluid {
-	position: relative;
+  position: relative;
 }
 
 .header-top {
-	position: relative;
-	margin: auto;
-	background-color: #f72210;
-	color: #fff;
-	padding: 50px 0px 10px 0px;
-	max-width: 1310px;
-	transition: all 0.3s;
+  position: relative;
+  margin: auto;
+  background-color: #f72210;
+  color: #fff;
+  padding: 50px 0px 10px 0px;
+  max-width: 1310px;
+  transition: all 0.3s;
 }
 
 .header-bottom {
-	position: relative;
-	top: 95px;
-	max-width: 1310px;
+  position: relative;
+  top: 95px;
+  max-width: 1310px;
   margin: auto;
 }
 
 .header-logo {
-	position: absolute;
-	width: 396px;
-	height: 60px;
-	transform: translate(-50%, 0);
-	top: 15px;
+  position: absolute;
+  width: 396px;
+  height: 60px;
+  transform: translate(-50%, 0);
+  top: 15px;
   left: 50%;
   object-fit: cover;
 }
@@ -166,7 +166,7 @@ header {
   padding-top: 6px;
 	color: #f72210;
   z-index: 9999;
-  font-size: 27px
+  font-size: 27px;
 }
 
 #headerBars {
@@ -201,7 +201,7 @@ header {
   display: flex;
   padding-top: 6px;
   padding-right: 50px;
-  padding-left: 0 ;
+  padding-left: 0;
   list-style: none;
   font-size: 21px;
   line-height: 24px;
@@ -299,7 +299,7 @@ header {
 
 .ptct-info-summary {
   font: 15px/20px "Helvetica Neue","Helvetica",Arial,sans-serif;
-  color: rgba(39,39,39,.5);
+  color: rgba(39, 39, 39, 0.5);
   margin-bottom: 10px;
 }
 
@@ -409,7 +409,7 @@ header {
   color: #f72210;
   text-transform: uppercase;
   padding: 0 10px;
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255, 255, 255, 0.9);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -463,7 +463,7 @@ header {
   color: #f72210;
   text-transform: uppercase;
   padding: 8px 15px 9px;
-  background-color: rgba(255, 255 ,255 ,0.9);
+  background-color: rgba(255, 255 ,255 , 0.9);
   position: absolute;
   bottom: 0;
   left: 0;
