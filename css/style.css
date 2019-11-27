@@ -135,7 +135,7 @@ header {
 }
 
 .header-signin-subscribe a i {
-  padding: 0;
+  padding: 0 10px;
 }
 
 .header-signin-subscribe span {
@@ -149,7 +149,6 @@ header {
 }
 
 .fa-bars {
-	position: absolute;
 	top: 0;
 	width: 16px;
   padding-left: 15px;
