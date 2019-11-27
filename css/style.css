@@ -3,7 +3,7 @@ body {
   color: #333;
   font-size: 13px;
   line-height: 18px;
-  font-family: Arial,Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 ul {
@@ -93,10 +93,6 @@ header {
   height: 95px;
 }
 
-.container-fluid {
-  position: relative;
-}
-
 .header-top {
   position: relative;
   margin: auto;
@@ -105,13 +101,6 @@ header {
   padding: 50px 0 10px 0;
   max-width: 1310px;
   transition: all 0.3s;
-}
-
-.header-bottom {
-  position: relative;
-  top: 95px;
-  max-width: 1310px;
-  margin: auto;
 }
 
 .header-logo {
@@ -185,6 +174,9 @@ header {
 	border-bottom: 1px solid #d9d9d9;
   position: relative;
   z-index: 10000;
+  top: 95px;
+  max-width: 1310px;
+  margin: auto;
 }
 
 .header-bottom::before {
@@ -255,6 +247,7 @@ header {
 
 /* main ------------------------------------------------------------------------------ */
 .container-fluid {
+  position: relative;
   max-width: 1310px;
   background: white;
 }
