@@ -359,6 +359,8 @@ header {
 
 .ptsu-sign-up:hover {
   background-color: #999;
+  color: white;
+  text-decoration: none;
 }
 
 .ptsu-update {
@@ -368,7 +370,6 @@ header {
 
 .ptsu-update:hover {
   color: #333;
-  text-decoration: none;
 }
 
 /* block-in-the-magazine --------------------------------------------------------------*/
