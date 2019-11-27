@@ -51,7 +51,7 @@ p {
   width: 8px;
   height: 14px;
   margin-left: 10px;
-  background: url(/img/icon-arrow-right.svg) center/contain no-repeat;
+  background: url("../img/icon-arrow-right.svg") center/contain no-repeat;
 }
 
 .block-title:hover {
@@ -352,7 +352,7 @@ header {
   width: 8px;
   height: 14px;
   margin-left: 10px;
-  background: url(/img/icon-arrow-right.svg) center/contain no-repeat;
+  background: url("../img/icon-arrow-right.svg") center/contain no-repeat;
 }
 
 .ptsu-sign-up:hover {
@@ -427,7 +427,7 @@ header {
   height: 14px;
   margin-left: 10px;
   color: black;
-  background: url(/img/icon-arrow-right-black.svg) center/contain no-repeat;
+  background: url("../img/icon-arrow-right-black.svg") center/contain no-repeat;
 }
 
 .bitm-all-features-gray:hover {
@@ -505,7 +505,7 @@ header {
   text-indent: 5px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  background: url("/img/icon-slideshows-nw.png") 0 0/contain no-repeat;
+  background: url("../img/icon-slideshows-nw.png") 0 0/contain no-repeat;
   color: #e9212e;
 }
 
