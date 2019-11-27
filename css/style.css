@@ -66,6 +66,15 @@ ul, h3, p {
   cursor: pointer;
 }
 
+.col-scroll {
+  height: 1710px;
+  overflow-y: scroll;
+}
+
+.col-scroll::-webkit-scrollbar {
+  display: none;
+}
+
 /* header -----------------------------------------------------------------------------*/
 
 header {

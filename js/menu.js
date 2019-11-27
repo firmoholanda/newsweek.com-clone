@@ -49,6 +49,7 @@ function big() {
   headerSignin.style.fontSize = "18px";
   headerSignin.style.top = "0px";
   headerSignin.style.right = "0";
+  headerSubscribe.style.padding = "4px";
   headerBottom.style.display = "block";
 }
 
@@ -65,5 +66,6 @@ function small() {
   headerSignin.style.fontSize = "18px";
   headerSignin.style.top = "3px";
   headerSignin.style.right = "50px";
+  headerSubscribe.style.padding = "4px";
   headerBottom.style.display = "none";
 }
