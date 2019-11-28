@@ -160,7 +160,7 @@ header {
 
 .header-bars {
   padding: 0;
-  bottom: 0;
+  opacity: 0.6;
   display: none;
 }
 

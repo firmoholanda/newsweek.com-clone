@@ -86,7 +86,7 @@ function small() {
     headerLogo.style.left = "80px";
     
 
-    headerSignin.style.fontSize = "14px";
+    headerSignin.style.fontSize = "16px";
    // headerSignin.style.top = "3px";
     //headerSignin.style.rigt = "0px";
 
@@ -94,7 +94,7 @@ function small() {
     //headerSubscribe.style.paddingBottom = "6px";
     //headerSubscribe.style.paddingLeft = "10px";
     //headerSubscribe.style.paddingRight = "10px";
-    headerSubscribe.style.fontSize = "14px";
+    headerSubscribe.style.fontSize = "16px";
 
     headerBottom.style.display = "none";
 
