@@ -1,4 +1,4 @@
-# 📃 design teardown
+# 📃 wewsweek.com-clone
 
 this project is part of a series of projects to be completed by students of [Microverse](https://www.microverse.org/ 'The Global School for Remote Software Developers!').
 
@@ -25,26 +25,21 @@ basic HTML5, CSS3, bootstrap 4 and github was used on this solo project.
 
 ## 🚀 the project
 
-this project can be found in https://github.com/firmoholanda/smashingmagazine.com-design-teardown
+this project can be found in https://github.com/firmoholanda/newsweek.com-clone
 
-### ✨ [live version](https://raw.githack.com/firmoholanda/smashingmagazine.com-design-teardown/development/index.html)
+### ✨ [live version](https://raw.githack.com/firmoholanda/newsweek.com-clone/development/index.html)
 
-<a href="https://raw.githack.com/firmoholanda/smashingmagazine.com-design-teardown/development/index.html" target="_blank">
-    <img alt="page animation" src="https://github.com/firmoholanda/smashingmagazine.com-design-teardown/blob/development/img/page-animation.gif"/>
-</a>
-<br>
-<p>this is the prototype image:</p>
-<a href="https://github.com/firmoholanda/smashingmagazine.com-design-teardown/blob/development/img/prototype-heatmap.png" target="_blank" align="center">
-    <img alt="prototype heatmap" height="700px" src="https://github.com/firmoholanda/smashingmagazine.com-design-teardown/blob/development/img/prototype-heatmap.png"/>
+<a href="https://raw.githack.com/firmoholanda/newsweek.com-clone/development/index.html" target="_blank">
+    <img alt="page animation" src="https://github.com/firmoholanda/newsweek.com-clone/blob/development/img/animation.gif"/>
 </a>
 
 
 
 ## 🤝 contributing
 
-contributions, issues and feature requests are welcome!<br/>Feel free to check [issues page](https://github.com/firmoholanda/smashingmagazine.com-design-teardown/development/issues).
+contributions, issues and feature requests are welcome!<br/>Feel free to check [issues page](https://github.com/firmoholanda/newsweek.com-clone/development/issues).
 
-1. fork it (https://github.com/firmoholanda/smashingmagazine.com-design-teardown/development/fork)
+1. fork it (https://github.com/firmoholanda/newsweek.com-clone/development/fork)
 2. create your working branch (git checkout -b [choose-a-name])
 3. commit your changes (git commit -am 'what this commit will fix/add/improve')
 4. push to the branch (git push origin [chosen-name])
@@ -66,4 +61,4 @@ give a ⭐️ if you like this project!
 
 ## 📝 license
 
-this project is [MIT](https://github.com/firmoholanda/smashingmagazine.com-design-teardown/development/blob/development/license.txt) licensed.
+this project is [MIT](https://github.com/firmoholanda/newsweek.com-clone/development/blob/development/license.txt) licensed.
