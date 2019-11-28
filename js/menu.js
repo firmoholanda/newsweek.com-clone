@@ -71,7 +71,8 @@ function small() {
     headerShevron.style.display = "none";
   } 
   else {
-    headerTop.style.paddingTop = "5px";
+    headerTop.style.padding = "0px";
+    headerTop.style.height = "50px";
     headerTop.style.maxWidth = "100%";
 
     headerDate.style.display = "none";
@@ -81,17 +82,18 @@ function small() {
 
     headerLogo.style.width = "132px";
     headerLogo.style.height = "20px";
-    headerLogo.style.left = "5rem";
-    //headerLogo.style.Top = "5px";
+    headerLogo.style.top = "15px";
+    headerLogo.style.left = "80px";
+    
 
     headerSignin.style.fontSize = "14px";
    // headerSignin.style.top = "3px";
-    headerSignin.style.rigt = "0px";
+    //headerSignin.style.rigt = "0px";
 
     //headerSubscribe.style.paddingTop = "6px";
     //headerSubscribe.style.paddingBottom = "6px";
-    headerSubscribe.style.paddingLeft = "10px";
-    headerSubscribe.style.paddingRight = "10px";
+    //headerSubscribe.style.paddingLeft = "10px";
+    //headerSubscribe.style.paddingRight = "10px";
     headerSubscribe.style.fontSize = "14px";
 
     headerBottom.style.display = "none";
