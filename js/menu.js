@@ -39,6 +39,7 @@ function big() {
   headerTop.style.paddingTop = "50px";
   headerTop.style.paddingBottom = "10px";
   headerTop.style.maxWidth = "1310px";
+  headerTop.style.height = "95px";
 
   headerDate.style.display = "block";
 
@@ -50,28 +51,26 @@ function big() {
   headerLogo.style.width = "396px";
   headerLogo.style.height = "60px";
   headerLogo.style.left = "50%";
-  //headerLogo.style.top = "13px";
 
   headerSignin.style.fontSize = "18px";
   headerSignin.style.top = "50%";
   headerSignin.style.right = "0";
 
   headerSubscribe.style.padding = "0px";
+  headerSignin.style.fontSize = "18px";
   
-  headerBottom.style.top = "50%";
+  headerBottom.style.top = "60%";
   headerBottom.style.display = "block";
 }
 
 function small() {
-  //console.log(document.body.scrollWidth);
-
   if (document.body.scrollWidth <= 480) {
     headerSignin.style.fontSize = "12px";
     headerSubscribe.style.fontSize = "12px";
     headerShevron.style.display = "none";
   } 
   else {
-    headerTop.style.padding = "0px";
+    headerTop.style.padding = "10px";
     headerTop.style.height = "50px";
     headerTop.style.maxWidth = "100%";
 
@@ -85,21 +84,13 @@ function small() {
     headerLogo.style.top = "15px";
     headerLogo.style.left = "80px";
     
-
     headerSignin.style.fontSize = "16px";
-   // headerSignin.style.top = "3px";
-    //headerSignin.style.rigt = "0px";
 
-    //headerSubscribe.style.paddingTop = "6px";
-    //headerSubscribe.style.paddingBottom = "6px";
-    //headerSubscribe.style.paddingLeft = "10px";
-    //headerSubscribe.style.paddingRight = "10px";
     headerSubscribe.style.fontSize = "16px";
 
     headerBottom.style.display = "none";
 
     headerShevron.style.display = "inline";
-    //headerShevron.style.paddingTop = "5px";
     headerShevron.style.fontSize = "18px";
   }
 }

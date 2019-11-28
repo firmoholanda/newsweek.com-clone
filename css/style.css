@@ -99,6 +99,7 @@ header {
   color: #fff;
   padding: 50px 0 10px 0;
   max-width: 1310px;
+  height: 95px;
   transition: all 0.3s;
 }
 
