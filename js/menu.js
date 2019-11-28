@@ -10,6 +10,7 @@ window.onresize = function () {
 
 var headerTop = document.getElementById('headerTop');
 var sticky = headerTop.offsetTop;
+var myHeader = document.getElementById("myHeader");
 var headerDate = document.getElementById('headerDate');
 var headerShevron = document.getElementById('headerShevron');
 var headerBars = document.getElementById('headerBars');
@@ -36,6 +37,8 @@ function toggle() {
 }
 
 function big() {
+  myHeader.style.height = "151px";
+
   headerTop.style.paddingTop = "50px";
   headerTop.style.paddingBottom = "10px";
   headerTop.style.maxWidth = "1310px";
@@ -70,6 +73,8 @@ function small() {
     headerShevron.style.display = "none";
   } 
   else {
+    myHeader.style.height = "50px";
+
     headerTop.style.padding = "10px";
     headerTop.style.height = "50px";
     headerTop.style.maxWidth = "100%";
