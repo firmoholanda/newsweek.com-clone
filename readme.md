@@ -2,7 +2,7 @@
 
 this project is part of a series of projects to be completed by students of [Microverse](https://www.microverse.org/ 'The Global School for Remote Software Developers!').
 
-in this project, you’ll get a chance to try out twitter’s bootstrap framework by building a site that actually uses it – wewsweek.com.
+in this project, i got a chance to try out twitter’s bootstrap framework by building a site that uses it – wewsweek.com
 
 
 
